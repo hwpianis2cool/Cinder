@@ -213,7 +213,6 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"$(CINDER_PATH)/lib/libcinder_d.a",
-					"",
 				);
 				PRODUCT_NAME = flickrTest;
 			};
@@ -231,7 +230,6 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"$(CINDER_PATH)/lib/libcinder.a",
-					"",
 				);
 				PRODUCT_NAME = flickrTest;
 			};

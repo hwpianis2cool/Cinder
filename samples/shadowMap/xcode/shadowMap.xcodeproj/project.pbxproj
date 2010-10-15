@@ -208,7 +208,7 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -218,7 +218,6 @@ GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"$(CINDER_PATH)/lib/libcinder_d.a",
-					"",
 				);
 				PRODUCT_NAME = shadowMap;
 				WRAPPER_EXTENSION = app;
@@ -236,7 +235,7 @@ GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 					"$(inherited)",
 					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks\"",
 				);
-GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = shadowMap_Prefix.pch;
@@ -245,7 +244,6 @@ GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
 					"$(CINDER_PATH)/lib/libcinder.a",
-					"",
 				);
 				PRODUCT_NAME = shadowMap;
 				WRAPPER_EXTENSION = app;
